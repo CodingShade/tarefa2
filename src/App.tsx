@@ -1,11 +1,11 @@
 import React from 'react';
-import FilmesTable from './FilmesTable';
+import FilmesCheckboxList from './components/container/FIlmesCheckboxList';
 
 const App: React.FC = () => {
   return (
     <div style={{ padding: '20px' }}>
-      <h1>Lista de Filmes</h1>
-      <FilmesTable />
+      <h1>Selecione um Filme</h1>
+      <FilmesCheckboxList />
     </div>
   );
 };
